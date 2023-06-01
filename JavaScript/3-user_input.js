@@ -1,7 +1,7 @@
 //EASY way with window prompt
 
-// let usernames = window.prompt("what's your name?");
-// console.log(usernames);
+let usernames = window.prompt("what's your name?");
+console.log(usernames);
 
 //DIFFERENT with HTML textbox
 
