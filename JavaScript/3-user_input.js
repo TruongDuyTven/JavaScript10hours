@@ -5,8 +5,8 @@ console.log(usernames);
 
 //DIFFERENT with HTML textbox
 
-document.getElementById("myButton").onclick = function() {
-    usernames = document.getElementById("myText").value;
+document.getElementById("myButton").onclick = function() { //when the user clicks on button
+    usernames = document.getElementById("myText").value; //get the value of input tag
     console.log(usernames);
-    document.getElementById("myLabel").innerHTML = "Hello " + usernames;
+    document.getElementById("myLabel").innerHTML = "Hello " + usernames; // show new String in label
 } 

@@ -6,7 +6,8 @@ let x;
 
 document.getElementById("rollButton").onclick = function () {
     //like tossing the dice
+    //Math.random() will return random number form 0 to 6
     //program print random integer form 1 to 6
-    x = Math.floor(Math.random() * 6) + 1;
+    x = Math.floor(Math.random() * 6) + 1; 
     document.getElementById("xlabel").innerHTML = x;
 }

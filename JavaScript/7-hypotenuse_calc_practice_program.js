@@ -2,6 +2,8 @@ let a;
 let b;
 let c;
 
+//you can delete "/**" and "*/" to demo code
+
 /**
 EASY WAY WITH PROMPT
     a = window.prompt("Enter side A");
@@ -13,7 +15,7 @@ EASY WAY WITH PROMPT
     // c = Math.pow(a, 2) + Math.pow(b, 2);
     // c = Math.sqrt(c);
 
-    c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+    c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));   c^2 = a^2 + b^2;
 
     console.log("Side C: ", c);
  */
@@ -21,11 +23,11 @@ EASY WAY WITH PROMPT
 
 /**
 DIFFERENT WAY WITH HTML BOX
-    document.getElementById("submitButton").onclick = function () {
-    a = document.getElementById("aText").value;
+    document.getElementById("submitButton").onclick = function () { //user clicked on button
+    a = document.getElementById("aText").value; //get the value on input box
     a = Number(a);
 
-    b = document.getElementById("bText").value;
+    b = document.getElementById("bText").value; //get the value on input box
     b = Number(b);
 
     c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
